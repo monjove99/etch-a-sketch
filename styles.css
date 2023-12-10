@@ -16,7 +16,6 @@ body {
     padding: 50px;
     margin: auto;
     border-radius: 30px;
-    #b8bffc
 }
 
 #title {
@@ -54,6 +53,8 @@ body {
 
 
 
+
+
 .pixelSize {
     display: flex;
     flex-direction: column;
@@ -64,6 +65,7 @@ input {
     margin-bottom: 20px; 
     font-family: 'Courgette', 'Raleway', sans-serif;
     font-size: medium;
+    border-radius: 5px;
 }
 
 
@@ -72,3 +74,8 @@ input {
     font-size: large;
     background:linear-gradient(#7B66FF, #fcf5b8 );
 }
+
+button:hover {
+    color: #fcf5b8;
+}
+
