@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam&family=Raleway:wght@200;300&family=Roboto&display=swap');
+
+
+
+body {
+    background:linear-gradient(#7B66FF, #fcf5b8);
+    font-family: 'Courgette', 'Raleway', sans-serif;
+    padding: 20px 0px;
+}
+
+.sketch-pad {
+    background:linear-gradient(#929dfa, #b8bffc); 
+    width: 700px;
+    height: 730px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 30px;
+    #b8bffc
+}
+
+#title {
+    font-size: 60px;
+    color: #fcf5b8;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+
+}
+
+.container {
+    display: grid;
+    height: 500px;
+    width: 700px;
+    background-color:  #F3F8FF;
+    margin: auto;
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+}
+
+.btnColor {
+    background:linear-gradient(#7B66FF, #fcf5b8);
+    font-family: 'Courgette', 'Raleway', sans-serif;
+    font-size: medium;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+
+
+.pixelSize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 20px; 
+    font-family: 'Courgette', 'Raleway', sans-serif;
+    font-size: medium;
+}
+
+
+.resizeBtn {
+    font-family: 'Courgette', 'Raleway', sans-serif;
+    font-size: large;
+    background:linear-gradient(#7B66FF, #fcf5b8 );
+}
