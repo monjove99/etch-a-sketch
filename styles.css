@@ -79,3 +79,6 @@ button:hover {
     color: #fcf5b8;
 }
 
+.cell {
+    border: black solid thin;
+}
